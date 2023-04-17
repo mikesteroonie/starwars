@@ -131,7 +131,7 @@ function App() {
 
       {characters?.map((character) => (
 
-        <div className='rounded-md shadow-md p-4' key = {character.id}>
+        <div className='rounded-md shadow-md p-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... hover:from-pink-500 hover:to-yellow-500 ...' key = {character.id}>
 
           <h2 className='text-lg font-bold'> {character.name}</h2>
           <p>Birthday:  {character.birthdate}</p>
